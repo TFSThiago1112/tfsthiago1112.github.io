@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<!--${default-head}-->
+	<head>
+		{% include head.html %}
+	<body>
+		{% include menu.html %}
+		<div class="container" id="main">
+			<div class="page-header">
+				<h2>{{ site.title }}</h2>
+			</div>
+			{{ site.content }}
+			<div class="push"></div>
+		</div>
+		{% include footer.html %}
+		<!--${default-footer}-->
+		<script src="/TFSThiago1112.wAssets/Scripts/jquery-1.11.3.min.js"></script>
+		<script src="/TFSThiago1112.wAssets/Scripts/bootstrap.min.js"></script>
+		<script src="/TFSThiago1112.wAssets/Scripts/tfsthiago1112-site.js"></script>
+		<!--End ${default-footer}-->
+	</body>
+</html>
