@@ -1,10 +1,3 @@
----
-layout: page
-title: Licences and Copyright
----
-<div class="page-header">
-	<h2>Licences and Copyright</h2>
-</div>
 <h2>TFSThiago1112 Licence</h2>
 
 <p>THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS TFSTHIAGO1112 LICENCE (&quot;AGREEMENT&quot;). ANY USE, REPRODUCTION OR
