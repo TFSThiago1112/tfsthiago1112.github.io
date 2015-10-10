@@ -5,7 +5,7 @@ layout: home
 <div class='row'>
     <div class='col-md-8'>
         <!--Blog Posts-->
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
         <div class='panel panel-primary'>
             <div class='panel-heading'>
                 <h3 class='panel-title'>{{ post.title }}</h3>
@@ -18,19 +18,6 @@ layout: home
             </div>
         </div>
         {% endfor %}
-        <ul class="pagination">
-            {% if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path }}">«</a></li>
-            {% else %}
-            <li class="disabled"><a href="#">«</a></li>
-            {% endif %}
-            <li><a>Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
-            {% if paginator.next_page %}
-            <li><a href="#">»</a></li>
-            {% else %}
-            <li class="disabled"><a href="#">»</a></li>
-            {% endif %}
-        </ul>
         <!--Blog Posts-->
     </div>
     <div class='col-md-4'>
