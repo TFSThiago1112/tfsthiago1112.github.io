@@ -1,0 +1,81 @@
+/*
+    TFSThiago1112 Web HTML5 Stylesheet File
+    Copyright (C) TFSThiago1112 2015. All Right Reserved.
+    Only TFSThiago1112 Authorized Websites Use
+*/
+
+/* 
+    Headbar Style
+*/
+.headbar {
+	margin-bottom: 0px !important;
+	background-color: #004795 !important;
+}
+.headbar > .headbar-header {
+	float: left !important;
+	padding: 6px !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+.headbar > .headbar-header .headbar-brand {
+	float:none !important;
+}
+.headbar-brand {
+	padding:2.5px 15px 2.5px
+}
+.headbar-brand > img {
+	display:inline;
+	margin:0 8px;
+	height:100%;
+}
+/*
+    Jumbotron Style
+*/
+.jumbotron {
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 48px;
+    color: #fff;
+    background-image: url("../img/jumbotron_bg.jpg");
+    background-size: cover;
+}
+/*
+    Footer
+*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 88px;
+}
+
+footer {
+    border-top: 1px solid #DDD;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 12px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+/*
+    Popover
+*/
+.popover {
+    max-width: 765px !important;
+}
+/*
+    Page Division
+*/
+#bars {
+    border-top: 1px solid #DDD;
+    padding-bottom: 12px;
+    height: 12px;
+    background-color: #FFF;
+    width: 100%;
+}

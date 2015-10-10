@@ -7,12 +7,10 @@
     <body>
         {% include headerbar.html %}
         {% include navbar.html %}
+        {% include jumbotron-home.html %}
         <!--Corpo-->
         <div class='container' id='main'>
-            <div class="page-header">
-                <h1>{{ page.title }}</h1>
-            </div>
-            <p>{{ content }}</p>
+            {{ content }}
         </div>
         <!--Corpo-->
         {% include footer.html %}

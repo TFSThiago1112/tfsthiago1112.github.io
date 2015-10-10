@@ -1,0 +1,9 @@
+- id: 'tecnocraft'
+  name: 'Tecnocraft'
+  percentage: 10
+  releasedate: 2015-12-14 10:30:00 -0300
+
+- id: 'elibrary'
+  name: 'eLibrary'
+  percentage: 2
+  releasedate: 2015-12-14 16:30:00 -0300
