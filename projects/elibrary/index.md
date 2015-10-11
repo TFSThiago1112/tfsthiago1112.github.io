@@ -30,6 +30,7 @@ projectdsc: Commom Library for TFSThiago1112 Projects
                         <p class="list-group-item-text">{{ download.system }} - {{ download.class }} - {{ download.file }}</p>
                     </a>
                     {% endfor %}
+            	</div>
             </div>
         </div>
         <div class='panel panel-info'>
