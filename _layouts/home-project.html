@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TFSThiago1112 - {{ page.title }}</title>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include headerbar.html %}
+        {% include navbar.html %}
+        {% include jumbotron-project.html project=page.project projectdsc=page.projectdsc %}
+        <!--Corpo-->
+        <div class='container' id='main'>
+            {{ content }}
+        </div>
+        <!--Corpo-->
+        {% include footer.html %}
+    </body>
+</html>
