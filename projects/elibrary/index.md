@@ -23,7 +23,13 @@ projectdsc: Commom Library for TFSThiago1112 Projects
                 <h3 class='panel-title'>Downloads</h3>
             </div>
             <div class='panel-body'>
-                <p>Comming Soon</p>
+            	<div class='list-group'>
+            		{% for download in site.data.downloads-elibrary %}
+            		<a href='{{ download.url }}' class='list-group-item'>
+                		<h4 class="list-group-item-heading">Version {{ download.version }}</h4>
+                        <p class="list-group-item-text">{{ download.system }} - {{ download.class }} - {{ download.file }}</p>
+                    </a>
+                    {% endfor %}
             </div>
         </div>
         <div class='panel panel-info'>
@@ -31,7 +37,12 @@ projectdsc: Commom Library for TFSThiago1112 Projects
                 <h3 class='panel-title'>Navigation</h3>
             </div>
             <div class='panel-body'>
-                <p>Comming Soon</p>
+                <div class='list-group'>
+                	<a href='#' class='list-group-item'>Downloads</a>
+                	<a href='#' class='list-group-item'>Documentation</a>
+                	<a href='#' class='list-group-item'>Github Repo</a>
+                	<a href='#' class='list-group-item'>Gitlab Mirror</a>
+                </div>
             </div>
         </div>
     </div>

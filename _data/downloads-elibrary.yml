@@ -1,9 +1,11 @@
 - version: 'v2.234'
   file: 'eLibrary-2.234-bin.zip'
   url: 'https://github.com'
+  class: 'Binary'
   system: 'Windows x64'
   
 - version: 'v2.234'
   file: 'eLibrary-2.234-source.zip'
   url: 'https://github.com'
-  system: 'Windows x64'
+  class: 'Source Code'
+  system: 'Visual Studio 2015'
