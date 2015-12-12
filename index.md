@@ -23,14 +23,6 @@ layout: home
     <div class='col-md-4'>
         <div class='panel panel-info'>
             <div class='panel-heading'>
-                <h3 class='panel-title'>Date and time</h3>
-            </div>
-            <div class='panel-body'>
-                <span class='clock'></span>
-            </div>
-        </div>
-        <div class='panel panel-warning'>
-            <div class='panel-heading'>
                 <h3 class='panel-title'>Developing Status</h3>
             </div>
             <div class='panel-body'>

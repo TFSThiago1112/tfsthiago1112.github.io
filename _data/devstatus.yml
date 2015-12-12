@@ -1,9 +1,19 @@
-- id: 'tecnocraft'
-  name: 'Tecnocraft'
-  percentage: 10
-  releasedate: 2015-12-14 10:30:00 -0300
+- id: 'ianniversary'
+  name: 'iAnniversary'
+  percentage: 90
+  releasedate: 2016-01-03 10:30:00 -0300
 
-- id: 'elibrary'
-  name: 'eLibrary'
-  percentage: 2
-  releasedate: 2015-12-14 16:30:00 -0300
+- id: 'ilibrary'
+  name: 'iLibrary'
+  percentage: 23
+  releasedate: 2016-01-14 16:30:00 -0300
+
+- id: 'ivote'
+  name: 'iVote'
+  percentage: 1
+  releasedate: 2016-01-30 18:30:00 -0300
+
+- id: 'iescola'
+  name: 'iEscola'
+  percentage: 1
+  releasedate: 2016-03-14 16:30:00 -0300
