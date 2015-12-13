@@ -1,0 +1,5 @@
+- version: 'v1.1.27'
+  file: 'eAnniversary-1.1.27.apk'
+  url: 'https://github.com'
+  class: 'APK'
+  system: 'Android'
